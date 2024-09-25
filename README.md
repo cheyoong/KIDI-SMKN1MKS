@@ -1,0 +1,2 @@
+# kidi
+SMKN 1 MAKASSAR-PPLG XI

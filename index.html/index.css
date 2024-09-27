@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-boc;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background:  #ffffff;
+}
+
+/* Header/Blog Tittle */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.header h1 {
+    font-size:50px;
+}
+
+/* Style the top navigation bar*/
+.topnav {
+    overflow: hidden;
+    background-color: gray;
+}
+
+/* Style the tapnav Links */
+.topnav a {
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: blueviolet;
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background-color: gray;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100px;
+        padding: 0;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100px;
+    }
+    
+}

@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Tittle */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color: bisque;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #b64d8d;
+}
+/* Style the topnav lines */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ca6bbe;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: rgb(245, 160, 160);
+}
+
+/* Create two uncqual colummns that floats next to */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 24%;
+  background-color: #7e5656;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeing {
+  background-color: rgb(29, 283, blue);
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(184, 72, 134);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clean floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than */
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

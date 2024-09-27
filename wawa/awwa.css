@@ -1,0 +1,112 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-color: rgb(252, 108, 209);
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(122, 235, 47);
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+ /* style the topno links */
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(151, 17, 17) ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+ 
+/*change color on hover */
+.topnav a:hover {
+    background-color: aquamarine;
+    color: aqua;
+}
+
+/* create two uncqual columns that floats next to */
+/* left column */ 
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 24%;
+    background-color: bisque;
+    padding-left: 20px;
+}
+ /* fake image */
+.fakeing. {
+    background-color: brown;
+    width: 100%;
+    padding: 20px;
+}
+
+*/ add a card effect fot articles */
+.card {
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin-top: 20px;
+}
+ /* clear floats after the columns */
+.row::after {
+    connten: "";
+    display: table;
+    clear: both;
+}
+ /* footer */
+.footer {
+    padding: 20px;
+    text-align:center ;
+    background-color: rgb(40, 86, 126);
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than */
+@media screen and (max-width:800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .topnav a{
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

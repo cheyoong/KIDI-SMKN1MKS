@@ -30,6 +30,31 @@
                 <label for="color">enter a color :</form>
                 <input id="color" type="text" placeholder="color" name="color">
             </p>
+            <p>
+                <label>
+                    Enter a Number : <input type="number" placeholder="enter a number" name="num" min="1" max="10">
+                </label>
+            </p>
+            <button type="button"> regular button (won't submit)</button>
+            <button>SUBMIT!!!</button>
+            <input type="submit" value="Click me!">
         </form>
+        <hr>
+        <button>not inside form</button>
+        <h2>hijacking searches</h2>
+        <h3>search reddit</h3>
+        <form action="https://www.reddit.com/search">
+            <input type="text" name="q">
+            <button>search reddit</button>
+        </form>
+        <h3>search google</h3>
+        <form action="https://www.google.com/search">
+            <button>seaarch google</button>
+        </form>
+        <h3>search youtube</h3>
+        <form action="https://www.youtube.com/search">
+            <button>search youtube</button>
+        </form>
+        
     </body>
 </html>

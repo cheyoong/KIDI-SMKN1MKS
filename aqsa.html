@@ -8,20 +8,56 @@
   <body>
     <h1>FORM DATA SISWA PPLG KELAS XI</h1>
     <h2>
-      Tabel ini bertujuan untuk memperliahat data siswa kelas yang berada di
+      Tabel ini bertujuan untuk memperlihat data siswa kelas yang berada di
       kelas XI PPLG SMKN 1 MAKAASAR
     </h2>
 
-    <form action="/tacon">
+    <form action="/tacos">
       <p>
-        <label for="username">enter a username :</label>
-        <input
-          id="username"
-          type="text"
-          placebolder="username"
-          name="username"
-        />
+        <label for="username">Enter a Username :</label>
+        <input id="username" type="text" placeholder="username" name="username">
       </p>
+      <p>
+        <label for="password">enter a password :</label>
+        <input id="password" type="password" placeholder="password" name="password">
+      </p>
+      <p>
+        <label for="email">Enter Email :</label>
+        <input id="email" type="email" placeholder="email" name="email">
+      </p>
+      <p>
+        <label for="date">Enter Date :</label>
+        <input id="date" type="data" placeholder="date" name="data">
+      </p>
+      <p>
+        <label for="color"> Enter a Color :</label>
+        <input id="color" type="color" name="color">
+      </p>
+      <p>
+        <label>
+            Enter a Number : <input type="number" placeholder="enter a number" name="num" min="1" max="10">
+        </label>
+      </p>
+      <button type="button"> Reguler Butoon (won't submit)</button>
+      <button>SUBMIT!!!</button>
+      <input typ="submit" value="click me!"></input>
+    </form>
+    <hr>
+    <button>Not inside form</button>
+    <h2>hi jacking searches</h2>
+    <h3>search Instagram</h3>
+    <form action="https://www.Instagram.com/search">
+      <input type="text" nama="q">
+      <button>search instagram</button>
+    </form>
+    <h3>search google</h3>
+    <form action="https://www.google.com/search">
+      <input type="text" nama="q">
+      <button>search google</button>
+    </form>
+    <form action="https://www.youtube.com/search">
+      <input type="text" nama="q">
+      <button>search youtube</button>
     </form>
   </body>
 </html>
